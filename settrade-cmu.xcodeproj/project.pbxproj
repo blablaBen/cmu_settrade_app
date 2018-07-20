@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790F77F52101F0740040C959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F77F42101F0740040C959 /* AppDelegate.swift */; };
+		790F77F72101F0740040C959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F77F62101F0740040C959 /* ViewController.swift */; };
+		790F77FA2101F0740040C959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790F77F82101F0740040C959 /* Main.storyboard */; };
+		790F77FC2101F0750040C959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790F77FB2101F0750040C959 /* Assets.xcassets */; };
+		790F77FF2101F0750040C959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790F77FD2101F0750040C959 /* LaunchScreen.storyboard */; };
+		790F780A2101F0750040C959 /* settrade_cmuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F78092101F0750040C959 /* settrade_cmuTests.swift */; };
+		790F78152101F0750040C959 /* settrade_cmuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F78142101F0750040C959 /* settrade_cmuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		790F78062101F0750040C959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 790F77E92101F0740040C959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790F77F02101F0740040C959;
+			remoteInfo = "settrade-cmu";
+		};
+		790F78112101F0750040C959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 790F77E92101F0740040C959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790F77F02101F0740040C959;
+			remoteInfo = "settrade-cmu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		790F77F12101F0740040C959 /* settrade-cmu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "settrade-cmu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790F77F42101F0740040C959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		790F77F62101F0740040C959 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		790F77F92101F0740040C959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		790F77FB2101F0750040C959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		790F77FE2101F0750040C959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		790F78002101F0750040C959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790F78052101F0750040C959 /* settrade-cmuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "settrade-cmuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790F78092101F0750040C959 /* settrade_cmuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settrade_cmuTests.swift; sourceTree = "<group>"; };
+		790F780B2101F0750040C959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790F78102101F0750040C959 /* settrade-cmuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "settrade-cmuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790F78142101F0750040C959 /* settrade_cmuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settrade_cmuUITests.swift; sourceTree = "<group>"; };
+		790F78162101F0750040C959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790F77EE2101F0740040C959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790F78022101F0750040C959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790F780D2101F0750040C959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790F77E82101F0740040C959 = {
+			isa = PBXGroup;
+			children = (
+				790F77F32101F0740040C959 /* settrade-cmu */,
+				790F78082101F0750040C959 /* settrade-cmuTests */,
+				790F78132101F0750040C959 /* settrade-cmuUITests */,
+				790F77F22101F0740040C959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		790F77F22101F0740040C959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790F77F12101F0740040C959 /* settrade-cmu.app */,
+				790F78052101F0750040C959 /* settrade-cmuTests.xctest */,
+				790F78102101F0750040C959 /* settrade-cmuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		790F77F32101F0740040C959 /* settrade-cmu */ = {
+			isa = PBXGroup;
+			children = (
+				790F77F42101F0740040C959 /* AppDelegate.swift */,
+				790F77F62101F0740040C959 /* ViewController.swift */,
+				790F77F82101F0740040C959 /* Main.storyboard */,
+				790F77FB2101F0750040C959 /* Assets.xcassets */,
+				790F77FD2101F0750040C959 /* LaunchScreen.storyboard */,
+				790F78002101F0750040C959 /* Info.plist */,
+			);
+			path = "settrade-cmu";
+			sourceTree = "<group>";
+		};
+		790F78082101F0750040C959 /* settrade-cmuTests */ = {
+			isa = PBXGroup;
+			children = (
+				790F78092101F0750040C959 /* settrade_cmuTests.swift */,
+				790F780B2101F0750040C959 /* Info.plist */,
+			);
+			path = "settrade-cmuTests";
+			sourceTree = "<group>";
+		};
+		790F78132101F0750040C959 /* settrade-cmuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				790F78142101F0750040C959 /* settrade_cmuUITests.swift */,
+				790F78162101F0750040C959 /* Info.plist */,
+			);
+			path = "settrade-cmuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		790F77F02101F0740040C959 /* settrade-cmu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790F78192101F0750040C959 /* Build configuration list for PBXNativeTarget "settrade-cmu" */;
+			buildPhases = (
+				790F77ED2101F0740040C959 /* Sources */,
+				790F77EE2101F0740040C959 /* Frameworks */,
+				790F77EF2101F0740040C959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "settrade-cmu";
+			productName = "settrade-cmu";
+			productReference = 790F77F12101F0740040C959 /* settrade-cmu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		790F78042101F0750040C959 /* settrade-cmuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790F781C2101F0750040C959 /* Build configuration list for PBXNativeTarget "settrade-cmuTests" */;
+			buildPhases = (
+				790F78012101F0750040C959 /* Sources */,
+				790F78022101F0750040C959 /* Frameworks */,
+				790F78032101F0750040C959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				790F78072101F0750040C959 /* PBXTargetDependency */,
+			);
+			name = "settrade-cmuTests";
+			productName = "settrade-cmuTests";
+			productReference = 790F78052101F0750040C959 /* settrade-cmuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		790F780F2101F0750040C959 /* settrade-cmuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790F781F2101F0750040C959 /* Build configuration list for PBXNativeTarget "settrade-cmuUITests" */;
+			buildPhases = (
+				790F780C2101F0750040C959 /* Sources */,
+				790F780D2101F0750040C959 /* Frameworks */,
+				790F780E2101F0750040C959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				790F78122101F0750040C959 /* PBXTargetDependency */,
+			);
+			name = "settrade-cmuUITests";
+			productName = "settrade-cmuUITests";
+			productReference = 790F78102101F0750040C959 /* settrade-cmuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		790F77E92101F0740040C959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = PATTARASAI;
+				TargetAttributes = {
+					790F77F02101F0740040C959 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					790F78042101F0750040C959 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 790F77F02101F0740040C959;
+					};
+					790F780F2101F0750040C959 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 790F77F02101F0740040C959;
+					};
+				};
+			};
+			buildConfigurationList = 790F77EC2101F0740040C959 /* Build configuration list for PBXProject "settrade-cmu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 790F77E82101F0740040C959;
+			productRefGroup = 790F77F22101F0740040C959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				790F77F02101F0740040C959 /* settrade-cmu */,
+				790F78042101F0750040C959 /* settrade-cmuTests */,
+				790F780F2101F0750040C959 /* settrade-cmuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790F77EF2101F0740040C959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790F77FF2101F0750040C959 /* LaunchScreen.storyboard in Resources */,
+				790F77FC2101F0750040C959 /* Assets.xcassets in Resources */,
+				790F77FA2101F0740040C959 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790F78032101F0750040C959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790F780E2101F0750040C959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790F77ED2101F0740040C959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790F77F72101F0740040C959 /* ViewController.swift in Sources */,
+				790F77F52101F0740040C959 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790F78012101F0750040C959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790F780A2101F0750040C959 /* settrade_cmuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790F780C2101F0750040C959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790F78152101F0750040C959 /* settrade_cmuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		790F78072101F0750040C959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 790F77F02101F0740040C959 /* settrade-cmu */;
+			targetProxy = 790F78062101F0750040C959 /* PBXContainerItemProxy */;
+		};
+		790F78122101F0750040C959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 790F77F02101F0740040C959 /* settrade-cmu */;
+			targetProxy = 790F78112101F0750040C959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		790F77F82101F0740040C959 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790F77F92101F0740040C959 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		790F77FD2101F0750040C959 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790F77FE2101F0750040C959 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		790F78172101F0750040C959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		790F78182101F0750040C959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		790F781A2101F0750040C959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "settrade-cmu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pattarasai.settrade-cmu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		790F781B2101F0750040C959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "settrade-cmu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pattarasai.settrade-cmu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		790F781D2101F0750040C959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "settrade-cmuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pattarasai.settrade-cmuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/settrade-cmu.app/settrade-cmu";
+			};
+			name = Debug;
+		};
+		790F781E2101F0750040C959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "settrade-cmuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pattarasai.settrade-cmuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/settrade-cmu.app/settrade-cmu";
+			};
+			name = Release;
+		};
+		790F78202101F0750040C959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "settrade-cmuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pattarasai.settrade-cmuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "settrade-cmu";
+			};
+			name = Debug;
+		};
+		790F78212101F0750040C959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "settrade-cmuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pattarasai.settrade-cmuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "settrade-cmu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		790F77EC2101F0740040C959 /* Build configuration list for PBXProject "settrade-cmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790F78172101F0750040C959 /* Debug */,
+				790F78182101F0750040C959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790F78192101F0750040C959 /* Build configuration list for PBXNativeTarget "settrade-cmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790F781A2101F0750040C959 /* Debug */,
+				790F781B2101F0750040C959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790F781C2101F0750040C959 /* Build configuration list for PBXNativeTarget "settrade-cmuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790F781D2101F0750040C959 /* Debug */,
+				790F781E2101F0750040C959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790F781F2101F0750040C959 /* Build configuration list for PBXNativeTarget "settrade-cmuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790F78202101F0750040C959 /* Debug */,
+				790F78212101F0750040C959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 790F77E92101F0740040C959 /* Project object */;
+}
