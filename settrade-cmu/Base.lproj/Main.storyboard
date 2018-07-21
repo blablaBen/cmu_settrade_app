@@ -105,7 +105,7 @@
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aa-1b-BWh">
                                                         <rect key="frame" x="40" y="142" width="334" height="81.333333333333314"/>
-                                                        <string key="text">As Settrade, we provide multi-platforms chanels for investor who wish to invest money on Thailand stocks and derivatives markets.</string>
+                                                        <string key="text">As Settrade company, we provide multi-platforms chanels for investor who wish to invest money on Thailand stocks and derivatives markets.</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
