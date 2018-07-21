@@ -88,7 +88,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a4a-u8-fjr">
-                                                <rect key="frame" x="0.0" y="718" width="414" height="330"/>
+                                                <rect key="frame" x="0.0" y="718" width="414" height="370"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="                              " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCR-Re-tc6">
                                                         <rect key="frame" x="57" y="8" width="300" height="2"/>
@@ -119,14 +119,14 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aa-1b-BWh">
-                                                        <rect key="frame" x="32" y="221.99999999999997" width="350" height="89.666666666666657"/>
+                                                        <rect key="frame" x="32" y="221.99999999999997" width="350" height="107.66666666666666"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="350" id="Lqj-LL-Dd3"/>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="Vme-TG-2lo"/>
                                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="rUS-cJ-QCM"/>
                                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="s5d-Ac-VPp"/>
                                                         </constraints>
-                                                        <string key="text">As Settrade company, we provide multi-platforms chanels for investors who wish to invest money on Thailand stocks and derivatives markets. We also have many supportive tools which can help you invest on the best stocks at the right time. </string>
+                                                        <string key="text">As Settrade company, we provide products and services for investors who wish to invest money on stocks and derivatives markets of Thailand. We have many supportive tools which can assist you to invest wisely. You will never miss any situation than can lead to disadvantages.</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -138,7 +138,7 @@
                                                     <constraint firstItem="9aa-1b-BWh" firstAttribute="top" secondItem="Lif-bj-OIa" secondAttribute="bottom" constant="18.666666666666686" id="1ht-rl-MEe"/>
                                                     <constraint firstItem="tpo-xE-Fzc" firstAttribute="top" secondItem="sCR-Re-tc6" secondAttribute="bottom" constant="44" id="2Mk-k1-Q7g"/>
                                                     <constraint firstItem="Lif-bj-OIa" firstAttribute="top" secondItem="tpo-xE-Fzc" secondAttribute="bottom" constant="3" id="LC4-pY-uj2"/>
-                                                    <constraint firstAttribute="height" constant="330" id="Nks-MY-4AC"/>
+                                                    <constraint firstAttribute="height" constant="370" id="Nks-MY-4AC"/>
                                                     <constraint firstItem="Lif-bj-OIa" firstAttribute="centerX" secondItem="a4a-u8-fjr" secondAttribute="centerX" id="gMS-L1-l2L"/>
                                                     <constraint firstItem="9aa-1b-BWh" firstAttribute="centerX" secondItem="a4a-u8-fjr" secondAttribute="centerX" id="kdz-5a-eCp"/>
                                                     <constraint firstItem="sCR-Re-tc6" firstAttribute="top" secondItem="a4a-u8-fjr" secondAttribute="top" constant="8" id="lNY-C3-Mie"/>
@@ -146,7 +146,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s5m-bo-7oG">
-                                                <rect key="frame" x="0.0" y="1048" width="414" height="233"/>
+                                                <rect key="frame" x="0.0" y="1088" width="414" height="233"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p-graph" translatesAutoresizingMaskIntoConstraints="NO" id="W0K-U6-hWT">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
@@ -162,7 +162,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a69-Bl-AZo">
-                                                <rect key="frame" x="0.0" y="1281" width="414" height="430"/>
+                                                <rect key="frame" x="0.0" y="1321" width="414" height="430"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="                              " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U41-X2-8PI">
                                                         <rect key="frame" x="57" y="71" width="300" height="2"/>
@@ -202,7 +202,7 @@
                                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="WkH-Rz-YQo"/>
                                                             <constraint firstAttribute="width" constant="350" id="yif-TL-Omo"/>
                                                         </constraints>
-                                                        <string key="text">We determine to give you the best satisfication. In order to achieve that, we deliver the applications in various plattforms. You will be confidence that no matter what platforms you have, you can use our services anyware and anytime.</string>
+                                                        <string key="text">We determine to give you the best satisfication. In order to achieve that, we deliver the applications in various plattforms. You will be confident that no matter what platforms you have, you can use our services anyware and anytime.</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -222,7 +222,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U6x-eT-AVa">
-                                                <rect key="frame" x="0.0" y="1711" width="414" height="233"/>
+                                                <rect key="frame" x="0.0" y="1751" width="414" height="233"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="platforms" translatesAutoresizingMaskIntoConstraints="NO" id="vnd-e6-BGH">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
