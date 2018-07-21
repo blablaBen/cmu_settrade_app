@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad10_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,27 +17,56 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="settrade_cmu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3th-Ca-vGF">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wef-ia-eTy">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="491"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="834" height="936"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="streaming-bg" translatesAutoresizingMaskIntoConstraints="NO" id="JET-J4-D1d">
-                                                <rect key="frame" x="-212.5" y="-49.5" width="800" height="590"/>
+                                                <rect key="frame" x="-213" y="-50" width="1259" height="928.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="JET-J4-D1d" secondAttribute="height" multiplier="80:59" id="ogH-F0-fAV"/>
                                                 </constraints>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settrade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="24" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7aw-Rz-BgV">
+                                                <rect key="frame" x="489.5" y="40" width="320.5" height="66"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="66" id="sx8-M3-sOs"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="45"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="80"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where the investers begin" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ws-1b-LaA">
+                                                <rect key="frame" x="446" y="114" width="372" height="36"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" red="0.34576371489987573" green="0.91779024433607648" blue="0.35128593386031037" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                                </variation>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="JET-J4-D1d" secondAttribute="trailing" constant="-212.5" id="2fw-Ab-d6B"/>
+                                            <constraint firstItem="7ws-1b-LaA" firstAttribute="top" secondItem="Wef-ia-eTy" secondAttribute="top" constant="114" id="8YJ-Uy-PTi"/>
+                                            <constraint firstItem="7aw-Rz-BgV" firstAttribute="top" secondItem="Wef-ia-eTy" secondAttribute="topMargin" constant="12" id="JAi-0Y-CqX"/>
+                                            <constraint firstItem="7aw-Rz-BgV" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Wef-ia-eTy" secondAttribute="leading" id="YFb-8G-G30"/>
                                             <constraint firstItem="JET-J4-D1d" firstAttribute="top" secondItem="Wef-ia-eTy" secondAttribute="top" constant="-49.5" id="ZQ2-m1-UsB"/>
+                                            <constraint firstAttribute="trailing" secondItem="7ws-1b-LaA" secondAttribute="trailing" constant="16" id="a4q-th-xAg"/>
                                             <constraint firstItem="JET-J4-D1d" firstAttribute="leading" secondItem="Wef-ia-eTy" secondAttribute="leading" constant="-212.5" id="cGS-SG-bL9"/>
+                                            <constraint firstItem="7ws-1b-LaA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Wef-ia-eTy" secondAttribute="leading" constant="20" symbolic="YES" id="hDE-qr-Nel"/>
+                                            <constraint firstAttribute="trailing" secondItem="7aw-Rz-BgV" secondAttribute="trailing" constant="24" id="jic-TP-bCA"/>
                                         </constraints>
                                     </view>
                                 </subviews>
