@@ -88,45 +88,65 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a4a-u8-fjr">
-                                                <rect key="frame" x="0.0" y="718" width="414" height="300"/>
+                                                <rect key="frame" x="0.0" y="718" width="414" height="400"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="                              " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCR-Re-tc6">
-                                                        <rect key="frame" x="100" y="8" width="214" height="2"/>
+                                                        <rect key="frame" x="57" y="8" width="300" height="2"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="300" id="org-jV-mol"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Products and Services " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpo-xE-Fzc">
-                                                        <rect key="frame" x="37" y="60" width="341.66666666666669" height="42"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                                        <rect key="frame" x="32.333333333333343" y="54" width="350" height="24"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="1RL-I5-2UR"/>
+                                                            <constraint firstAttribute="width" constant="350" id="JdY-hX-xSc"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aa-1b-BWh">
-                                                        <rect key="frame" x="40" y="142" width="334" height="81.333333333333314"/>
-                                                        <string key="text">As Settrade company, we provide multi-platforms chanels for investor who wish to invest money on Thailand stocks and derivatives markets.</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We make your investment become much easier" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lif-bj-OIa">
+                                                        <rect key="frame" x="32" y="81" width="350" height="122.33333333333331"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="350" id="Qx6-fe-rTo"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="35"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aa-1b-BWh">
+                                                        <rect key="frame" x="32" y="221.99999999999997" width="350" height="89.666666666666657"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="350" id="Lqj-LL-Dd3"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="Vme-TG-2lo"/>
+                                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="rUS-cJ-QCM"/>
+                                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="s5d-Ac-VPp"/>
+                                                        </constraints>
+                                                        <string key="text">As Settrade company, we provide multi-platforms chanels for investor who wish to invest money on Thailand stocks and derivatives markets. We also have many supportive tools which can help you invest on the best stocks at the right time. </string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstItem="sCR-Re-tc6" firstAttribute="leading" secondItem="a4a-u8-fjr" secondAttribute="leading" constant="100" id="AMO-Nf-Vi8"/>
-                                                    <constraint firstItem="tpo-xE-Fzc" firstAttribute="top" secondItem="sCR-Re-tc6" secondAttribute="bottom" constant="50" id="C3V-FB-YlX"/>
-                                                    <constraint firstItem="sCR-Re-tc6" firstAttribute="centerX" secondItem="a4a-u8-fjr" secondAttribute="centerX" id="IiD-Y5-5SY"/>
-                                                    <constraint firstAttribute="height" constant="300" id="Nks-MY-4AC"/>
-                                                    <constraint firstItem="9aa-1b-BWh" firstAttribute="leading" secondItem="a4a-u8-fjr" secondAttribute="leading" constant="40" id="Xhr-YQ-Vqo"/>
-                                                    <constraint firstAttribute="trailing" secondItem="9aa-1b-BWh" secondAttribute="trailing" constant="40" id="Zch-xM-mgO"/>
-                                                    <constraint firstItem="9aa-1b-BWh" firstAttribute="top" secondItem="tpo-xE-Fzc" secondAttribute="bottom" constant="40" id="aEF-SB-15Z"/>
-                                                    <constraint firstItem="tpo-xE-Fzc" firstAttribute="centerX" secondItem="a4a-u8-fjr" secondAttribute="centerX" id="etX-0b-WLf"/>
-                                                    <constraint firstItem="sCR-Re-tc6" firstAttribute="top" secondItem="a4a-u8-fjr" secondAttribute="top" constant="8" id="ky2-WT-86h"/>
-                                                    <constraint firstAttribute="trailing" secondItem="sCR-Re-tc6" secondAttribute="trailing" constant="100" id="qG3-8Z-DwV"/>
+                                                    <constraint firstItem="tpo-xE-Fzc" firstAttribute="centerX" secondItem="a4a-u8-fjr" secondAttribute="centerX" id="0Fa-PS-cDu"/>
+                                                    <constraint firstItem="9aa-1b-BWh" firstAttribute="top" secondItem="Lif-bj-OIa" secondAttribute="bottom" constant="18.666666666666686" id="1ht-rl-MEe"/>
+                                                    <constraint firstItem="tpo-xE-Fzc" firstAttribute="top" secondItem="sCR-Re-tc6" secondAttribute="bottom" constant="44" id="2Mk-k1-Q7g"/>
+                                                    <constraint firstItem="Lif-bj-OIa" firstAttribute="top" secondItem="tpo-xE-Fzc" secondAttribute="bottom" constant="3" id="LC4-pY-uj2"/>
+                                                    <constraint firstAttribute="height" constant="400" id="Nks-MY-4AC"/>
+                                                    <constraint firstItem="Lif-bj-OIa" firstAttribute="centerX" secondItem="a4a-u8-fjr" secondAttribute="centerX" id="gMS-L1-l2L"/>
+                                                    <constraint firstItem="9aa-1b-BWh" firstAttribute="centerX" secondItem="a4a-u8-fjr" secondAttribute="centerX" id="kdz-5a-eCp"/>
+                                                    <constraint firstItem="sCR-Re-tc6" firstAttribute="top" secondItem="a4a-u8-fjr" secondAttribute="top" constant="8" id="lNY-C3-Mie"/>
+                                                    <constraint firstItem="sCR-Re-tc6" firstAttribute="centerX" secondItem="a4a-u8-fjr" secondAttribute="centerX" id="mlh-8f-QjQ"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s5m-bo-7oG">
-                                                <rect key="frame" x="0.0" y="1018" width="414" height="233"/>
+                                                <rect key="frame" x="0.0" y="1118" width="414" height="233"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p-graph" translatesAutoresizingMaskIntoConstraints="NO" id="W0K-U6-hWT">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
@@ -149,6 +169,7 @@
                                             <constraint firstAttribute="trailing" secondItem="5TZ-ce-vGo" secondAttribute="trailing" id="Bf2-8F-b3t"/>
                                             <constraint firstItem="5TZ-ce-vGo" firstAttribute="top" secondItem="HJl-7r-mvg" secondAttribute="bottom" id="EXd-Qk-BrF"/>
                                             <constraint firstItem="5TZ-ce-vGo" firstAttribute="leading" secondItem="PNr-Jk-x10" secondAttribute="leading" id="FYS-PA-bIX"/>
+                                            <constraint firstItem="a4a-u8-fjr" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="JaY-Yq-6uI"/>
                                             <constraint firstAttribute="height" constant="2500" id="KOo-VJ-9zV"/>
                                             <constraint firstItem="a4a-u8-fjr" firstAttribute="top" secondItem="5TZ-ce-vGo" secondAttribute="bottom" constant="7.3300000000000001" id="PTx-HJ-wIQ"/>
                                             <constraint firstItem="HJl-7r-mvg" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="XjL-f8-Z20"/>
