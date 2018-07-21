@@ -125,10 +125,27 @@
                                                     <constraint firstAttribute="trailing" secondItem="sCR-Re-tc6" secondAttribute="trailing" constant="100" id="qG3-8Z-DwV"/>
                                                 </constraints>
                                             </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s5m-bo-7oG">
+                                                <rect key="frame" x="0.0" y="1018" width="414" height="233"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p-graph" translatesAutoresizingMaskIntoConstraints="NO" id="W0K-U6-hWT">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="W0K-U6-hWT" secondAttribute="trailing" id="AmD-Vn-qJ1"/>
+                                                    <constraint firstItem="W0K-U6-hWT" firstAttribute="top" secondItem="s5m-bo-7oG" secondAttribute="top" id="Twr-c1-ZJ8"/>
+                                                    <constraint firstAttribute="width" secondItem="s5m-bo-7oG" secondAttribute="height" multiplier="16:9" id="cwQ-yc-33Q"/>
+                                                    <constraint firstItem="W0K-U6-hWT" firstAttribute="leading" secondItem="s5m-bo-7oG" secondAttribute="leading" id="gCa-gU-uD9"/>
+                                                    <constraint firstAttribute="bottom" secondItem="W0K-U6-hWT" secondAttribute="bottom" id="w4i-B3-oc4"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="HJl-7r-mvg" firstAttribute="top" secondItem="PNr-Jk-x10" secondAttribute="top" id="3gx-zW-xM3"/>
+                                            <constraint firstItem="s5m-bo-7oG" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="8zl-4X-Trw"/>
                                             <constraint firstAttribute="trailing" secondItem="5TZ-ce-vGo" secondAttribute="trailing" id="Bf2-8F-b3t"/>
                                             <constraint firstItem="5TZ-ce-vGo" firstAttribute="top" secondItem="HJl-7r-mvg" secondAttribute="bottom" id="EXd-Qk-BrF"/>
                                             <constraint firstItem="5TZ-ce-vGo" firstAttribute="leading" secondItem="PNr-Jk-x10" secondAttribute="leading" id="FYS-PA-bIX"/>
@@ -137,7 +154,9 @@
                                             <constraint firstItem="HJl-7r-mvg" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="XjL-f8-Z20"/>
                                             <constraint firstItem="HJl-7r-mvg" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="baA-qC-06O"/>
                                             <constraint firstAttribute="trailing" secondItem="a4a-u8-fjr" secondAttribute="trailing" id="cUw-dC-tIL"/>
+                                            <constraint firstItem="s5m-bo-7oG" firstAttribute="top" secondItem="a4a-u8-fjr" secondAttribute="bottom" id="e5u-WU-Y7x"/>
                                             <constraint firstItem="a4a-u8-fjr" firstAttribute="leading" secondItem="PNr-Jk-x10" secondAttribute="leading" id="ukV-gl-dm0"/>
+                                            <constraint firstItem="s5m-bo-7oG" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="xsH-nY-cZ4"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -167,6 +186,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="p-graph" width="426" height="240"/>
         <image name="streaming-bg" width="2475" height="1856"/>
     </resources>
 </document>
