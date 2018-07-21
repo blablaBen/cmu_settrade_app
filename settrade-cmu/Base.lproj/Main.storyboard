@@ -100,7 +100,7 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Products and Services " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpo-xE-Fzc">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Services " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpo-xE-Fzc">
                                                         <rect key="frame" x="32.333333333333343" y="54" width="350" height="24"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="1RL-I5-2UR"/>
@@ -126,7 +126,7 @@
                                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="rUS-cJ-QCM"/>
                                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="s5d-Ac-VPp"/>
                                                         </constraints>
-                                                        <string key="text">As Settrade company, we provide multi-platforms chanels for investor who wish to invest money on Thailand stocks and derivatives markets. We also have many supportive tools which can help you invest on the best stocks at the right time. </string>
+                                                        <string key="text">As Settrade company, we provide multi-platforms chanels for investors who wish to invest money on Thailand stocks and derivatives markets. We also have many supportive tools which can help you invest on the best stocks at the right time. </string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -161,10 +161,57 @@
                                                     <constraint firstAttribute="bottom" secondItem="W0K-U6-hWT" secondAttribute="bottom" id="w4i-B3-oc4"/>
                                                 </constraints>
                                             </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a69-Bl-AZo">
+                                                <rect key="frame" x="0.0" y="1351" width="414" height="500"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="                              " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U41-X2-8PI">
+                                                        <rect key="frame" x="57" y="71" width="300" height="2"/>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="300" id="1RD-hK-2ec"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Products " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oeL-SC-kqm">
+                                                        <rect key="frame" x="32" y="142" width="350" height="24"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="XZq-lb-cJX"/>
+                                                            <constraint firstAttribute="width" constant="350" id="a9K-ge-TmR"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="hsa-Xv-3x1"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No matter what channel you use, we support it" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihA-l6-f97">
+                                                        <rect key="frame" x="32" y="174" width="350" height="122.33333333333331"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="350" id="3v6-94-oFe"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="M23-Uq-Ei7"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="35"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="ihA-l6-f97" firstAttribute="top" secondItem="oeL-SC-kqm" secondAttribute="bottom" constant="8" id="9CR-R0-1pH"/>
+                                                    <constraint firstItem="oeL-SC-kqm" firstAttribute="top" secondItem="a69-Bl-AZo" secondAttribute="top" constant="142" id="E7i-t7-Mbs"/>
+                                                    <constraint firstAttribute="height" constant="500" id="Lo4-DM-maI"/>
+                                                    <constraint firstItem="U41-X2-8PI" firstAttribute="centerX" secondItem="a69-Bl-AZo" secondAttribute="centerX" id="RQ5-d8-G7J"/>
+                                                    <constraint firstItem="U41-X2-8PI" firstAttribute="top" secondItem="a69-Bl-AZo" secondAttribute="top" constant="71" id="WUB-hf-lOw"/>
+                                                    <constraint firstItem="ihA-l6-f97" firstAttribute="centerX" secondItem="a69-Bl-AZo" secondAttribute="centerX" id="dpQ-hc-Io5"/>
+                                                    <constraint firstItem="oeL-SC-kqm" firstAttribute="centerX" secondItem="a69-Bl-AZo" secondAttribute="centerX" id="gHT-Ip-9bD"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="HJl-7r-mvg" firstAttribute="top" secondItem="PNr-Jk-x10" secondAttribute="top" id="3gx-zW-xM3"/>
+                                            <constraint firstItem="a69-Bl-AZo" firstAttribute="top" secondItem="s5m-bo-7oG" secondAttribute="bottom" id="4TW-Ll-RW4"/>
+                                            <constraint firstItem="a69-Bl-AZo" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="5hx-1s-PQn"/>
                                             <constraint firstItem="s5m-bo-7oG" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="8zl-4X-Trw"/>
                                             <constraint firstAttribute="trailing" secondItem="5TZ-ce-vGo" secondAttribute="trailing" id="Bf2-8F-b3t"/>
                                             <constraint firstItem="5TZ-ce-vGo" firstAttribute="top" secondItem="HJl-7r-mvg" secondAttribute="bottom" id="EXd-Qk-BrF"/>
@@ -176,6 +223,7 @@
                                             <constraint firstItem="HJl-7r-mvg" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="baA-qC-06O"/>
                                             <constraint firstAttribute="trailing" secondItem="a4a-u8-fjr" secondAttribute="trailing" id="cUw-dC-tIL"/>
                                             <constraint firstItem="s5m-bo-7oG" firstAttribute="top" secondItem="a4a-u8-fjr" secondAttribute="bottom" id="e5u-WU-Y7x"/>
+                                            <constraint firstItem="a69-Bl-AZo" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="jEC-Lp-hBj"/>
                                             <constraint firstItem="a4a-u8-fjr" firstAttribute="leading" secondItem="PNr-Jk-x10" secondAttribute="leading" id="ukV-gl-dm0"/>
                                             <constraint firstItem="s5m-bo-7oG" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="xsH-nY-cZ4"/>
                                         </constraints>
