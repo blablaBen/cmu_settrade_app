@@ -37,7 +37,6 @@
                                             <constraint firstAttribute="trailing" secondItem="JET-J4-D1d" secondAttribute="trailing" constant="-212.5" id="2fw-Ab-d6B"/>
                                             <constraint firstItem="JET-J4-D1d" firstAttribute="top" secondItem="Wef-ia-eTy" secondAttribute="top" constant="-49.5" id="ZQ2-m1-UsB"/>
                                             <constraint firstItem="JET-J4-D1d" firstAttribute="leading" secondItem="Wef-ia-eTy" secondAttribute="leading" constant="-212.5" id="cGS-SG-bL9"/>
-                                            <constraint firstAttribute="bottom" secondItem="JET-J4-D1d" secondAttribute="bottom" constant="-49.5" id="jqD-tf-1L3"/>
                                         </constraints>
                                     </view>
                                 </subviews>
