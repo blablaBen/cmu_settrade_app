@@ -202,7 +202,7 @@
                                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="WkH-Rz-YQo"/>
                                                             <constraint firstAttribute="width" constant="350" id="yif-TL-Omo"/>
                                                         </constraints>
-                                                        <string key="text">We determine to give you the best satisfication. In order to achieve that, we deliver the applications in various plattforms. You will be confident that no matter what platforms you have, you can use our services anyware and anytime.</string>
+                                                        <string key="text">We determine to give you the best satisfication. In order to achieve it, we deliver the applications in various plattforms. You will be confident no matter what platforms you have, you can use our services anyware and anytime.</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
