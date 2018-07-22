@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     func disableMapGetsure() {
         self.mapWithSttAddress.isZoomEnabled = false;
         self.mapWithSttAddress.isScrollEnabled = false;
-        self.mapWithSttAddress.isUserInteractionEnabled = false;
+        self.mapWithSttAddress.isUserInteractionEnabled = true;
     }
 
     override func didReceiveMemoryWarning() {
