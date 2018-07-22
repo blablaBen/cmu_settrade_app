@@ -251,22 +251,34 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="aZX-ZR-9e7">
-                                                        <rect key="frame" x="20" y="119.00000000000001" width="374" height="199.33333333333337"/>
+                                                        <rect key="frame" x="20" y="151" width="374" height="199.33333333333337"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="aZX-ZR-9e7" secondAttribute="height" multiplier="15:8" id="XSk-0Z-6J3"/>
                                                         </constraints>
                                                     </mapView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address &amp; Working hours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3v-Lh-j55">
+                                                        <rect key="frame" x="32" y="111" width="350" height="24"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="5uu-fa-c0d"/>
+                                                            <constraint firstAttribute="width" constant="350" id="DgJ-XV-ymD"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="aZX-ZR-9e7" secondAttribute="trailing" constant="20" id="3qz-dW-OJk"/>
-                                                    <constraint firstItem="aZX-ZR-9e7" firstAttribute="top" secondItem="aiD-RA-2Kn" secondAttribute="bottom" constant="61" id="GL8-93-JRK"/>
+                                                    <constraint firstItem="aZX-ZR-9e7" firstAttribute="top" secondItem="aiD-RA-2Kn" secondAttribute="bottom" constant="93" id="GL8-93-JRK"/>
                                                     <constraint firstAttribute="height" constant="500" id="Lg5-qy-ngW"/>
                                                     <constraint firstAttribute="trailing" secondItem="aiD-RA-2Kn" secondAttribute="trailing" constant="57" id="Lqy-3Q-bb5"/>
                                                     <constraint firstItem="aZX-ZR-9e7" firstAttribute="centerX" secondItem="MNU-yn-7qb" secondAttribute="centerX" id="PNO-I5-1Hu"/>
                                                     <constraint firstItem="aZX-ZR-9e7" firstAttribute="leading" secondItem="MNU-yn-7qb" secondAttribute="leading" constant="20" id="ZoM-1u-Dyy"/>
                                                     <constraint firstItem="aiD-RA-2Kn" firstAttribute="leading" secondItem="MNU-yn-7qb" secondAttribute="leading" constant="57" id="gbB-B1-QML"/>
                                                     <constraint firstItem="aiD-RA-2Kn" firstAttribute="top" secondItem="MNU-yn-7qb" secondAttribute="top" constant="56" id="mGx-Ox-kOw"/>
+                                                    <constraint firstItem="G3v-Lh-j55" firstAttribute="centerX" secondItem="MNU-yn-7qb" secondAttribute="centerX" id="w8b-qM-htT"/>
+                                                    <constraint firstItem="G3v-Lh-j55" firstAttribute="top" secondItem="aiD-RA-2Kn" secondAttribute="bottom" constant="53" id="yv3-ja-EPL"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
