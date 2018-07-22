@@ -18,20 +18,27 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initializeSttLocationOnMap()
+        disableMapGetsure()
     }
     
     func initializeSttLocationOnMap() {
-        let sttLocation: CLLocation = CLLocation(latitude: STT_LOCATION_LATITUDE, longitude: STT_LOCATION_LONGTITUDE)
-        let sttLocationCor2D = CLLocationCoordinate2D(latitude: STT_LOCATION_LATITUDE, longitude: STT_LOCATION_LONGTITUDE)
+        let sttLocation: CLLocation = CLLocation(latitude: self.STT_LOCATION_LATITUDE, longitude: self.STT_LOCATION_LONGTITUDE)
+        let sttLocationCor2D = CLLocationCoordinate2D(latitude: self.STT_LOCATION_LATITUDE, longitude: self.STT_LOCATION_LONGTITUDE)
         let coordinateRegion: MKCoordinateRegion = MKCoordinateRegionMakeWithDistance(sttLocation.coordinate,
                                                                                       1000, 1000);
-        mapWithSttAddress.setRegion(coordinateRegion, animated: true)
+        self.mapWithSttAddress.setRegion(coordinateRegion, animated: true)
         
         let sttAnnotation = MKPointAnnotation();
         sttAnnotation.title = "Settrade, co. ltd";
         sttAnnotation.coordinate = sttLocationCor2D;
         
-        mapWithSttAddress.addAnnotation(sttAnnotation);
+        self.mapWithSttAddress.addAnnotation(sttAnnotation);
+    }
+    
+    func disableMapGetsure() {
+        self.mapWithSttAddress.isZoomEnabled = false;
+        self.mapWithSttAddress.isScrollEnabled = false;
+        self.mapWithSttAddress.isUserInteractionEnabled = false;
     }
 
     override func didReceiveMemoryWarning() {
