@@ -16,14 +16,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="settrade_cmu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="3500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="45w-Ay-Mwa">
-                                <rect key="frame" x="0.0" y="20" width="414" height="2980"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="3480"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PNr-Jk-x10">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3500"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HJl-7r-mvg">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
@@ -275,17 +275,65 @@
                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Stock Exchange of Thailand Building" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDM-n5-kb0">
+                                                        <rect key="frame" x="32" y="379" width="350" height="18"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="6zH-L0-tnL"/>
+                                                            <constraint firstAttribute="width" constant="350" id="qiO-GM-ERa"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8th floor, 93 Ratchadapisek Rd. Dindang " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1A-s8-q9n">
+                                                        <rect key="frame" x="32" y="397" width="350" height="18"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="350" id="BGW-Or-Ab6"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="Sdo-JP-Ae1"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bangkok, Thailand 10400" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iy2-er-P5J">
+                                                        <rect key="frame" x="32" y="415" width="350" height="18"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="350" id="svY-le-4zc"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="zlj-eU-Zgm"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Working Hours: 08:00 - 18:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0d-WW-lfp">
+                                                        <rect key="frame" x="32" y="453" width="350" height="18"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="350" id="6WV-dL-llA"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="ZxO-AH-aCb"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="aZX-ZR-9e7" secondAttribute="trailing" constant="20" id="3qz-dW-OJk"/>
+                                                    <constraint firstItem="M0d-WW-lfp" firstAttribute="top" secondItem="iy2-er-P5J" secondAttribute="bottom" constant="20" id="6Th-Qm-wW9"/>
                                                     <constraint firstItem="aZX-ZR-9e7" firstAttribute="top" secondItem="aiD-RA-2Kn" secondAttribute="bottom" constant="93" id="GL8-93-JRK"/>
+                                                    <constraint firstItem="M0d-WW-lfp" firstAttribute="centerX" secondItem="MNU-yn-7qb" secondAttribute="centerX" id="Hp3-a2-I4O"/>
+                                                    <constraint firstItem="iy2-er-P5J" firstAttribute="top" secondItem="v1A-s8-q9n" secondAttribute="bottom" id="IZo-by-UD1"/>
                                                     <constraint firstAttribute="height" constant="500" id="Lg5-qy-ngW"/>
                                                     <constraint firstAttribute="trailing" secondItem="aiD-RA-2Kn" secondAttribute="trailing" constant="57" id="Lqy-3Q-bb5"/>
+                                                    <constraint firstItem="rDM-n5-kb0" firstAttribute="top" secondItem="aZX-ZR-9e7" secondAttribute="bottom" constant="28.670000000000002" id="MOO-tH-Cxc"/>
                                                     <constraint firstItem="aZX-ZR-9e7" firstAttribute="centerX" secondItem="MNU-yn-7qb" secondAttribute="centerX" id="PNO-I5-1Hu"/>
+                                                    <constraint firstItem="rDM-n5-kb0" firstAttribute="centerX" secondItem="MNU-yn-7qb" secondAttribute="centerX" id="RSs-my-gbp"/>
                                                     <constraint firstItem="aZX-ZR-9e7" firstAttribute="leading" secondItem="MNU-yn-7qb" secondAttribute="leading" constant="20" id="ZoM-1u-Dyy"/>
+                                                    <constraint firstItem="v1A-s8-q9n" firstAttribute="top" secondItem="rDM-n5-kb0" secondAttribute="bottom" id="eHh-l8-Q68"/>
                                                     <constraint firstItem="aiD-RA-2Kn" firstAttribute="leading" secondItem="MNU-yn-7qb" secondAttribute="leading" constant="57" id="gbB-B1-QML"/>
+                                                    <constraint firstItem="v1A-s8-q9n" firstAttribute="centerX" secondItem="MNU-yn-7qb" secondAttribute="centerX" id="hlg-QM-swR"/>
                                                     <constraint firstItem="aiD-RA-2Kn" firstAttribute="top" secondItem="MNU-yn-7qb" secondAttribute="top" constant="56" id="mGx-Ox-kOw"/>
+                                                    <constraint firstItem="iy2-er-P5J" firstAttribute="centerX" secondItem="MNU-yn-7qb" secondAttribute="centerX" id="tuB-Io-Vb1"/>
                                                     <constraint firstItem="G3v-Lh-j55" firstAttribute="centerX" secondItem="MNU-yn-7qb" secondAttribute="centerX" id="w8b-qM-htT"/>
                                                     <constraint firstItem="G3v-Lh-j55" firstAttribute="top" secondItem="aiD-RA-2Kn" secondAttribute="bottom" constant="53" id="yv3-ja-EPL"/>
                                                 </constraints>
@@ -301,7 +349,7 @@
                                             <constraint firstItem="5TZ-ce-vGo" firstAttribute="top" secondItem="HJl-7r-mvg" secondAttribute="bottom" id="EXd-Qk-BrF"/>
                                             <constraint firstItem="5TZ-ce-vGo" firstAttribute="leading" secondItem="PNr-Jk-x10" secondAttribute="leading" id="FYS-PA-bIX"/>
                                             <constraint firstItem="a4a-u8-fjr" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="JaY-Yq-6uI"/>
-                                            <constraint firstAttribute="height" constant="3000" id="KOo-VJ-9zV"/>
+                                            <constraint firstAttribute="height" constant="3500" id="KOo-VJ-9zV"/>
                                             <constraint firstItem="U6x-eT-AVa" firstAttribute="top" secondItem="a69-Bl-AZo" secondAttribute="bottom" id="Myb-ZF-MWu"/>
                                             <constraint firstItem="MNU-yn-7qb" firstAttribute="top" secondItem="U6x-eT-AVa" secondAttribute="bottom" id="Nbv-zL-tLc"/>
                                             <constraint firstItem="a4a-u8-fjr" firstAttribute="top" secondItem="5TZ-ce-vGo" secondAttribute="bottom" constant="7.3300000000000001" id="PTx-HJ-wIQ"/>
@@ -337,7 +385,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <size key="freeformSize" width="414" height="3000"/>
+                    <size key="freeformSize" width="414" height="3500"/>
                     <connections>
                         <outlet property="mapWithSttAddress" destination="aZX-ZR-9e7" id="c3K-4E-Kea"/>
                     </connections>
