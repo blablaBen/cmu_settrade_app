@@ -237,6 +237,38 @@
                                                     <constraint firstItem="vnd-e6-BGH" firstAttribute="leading" secondItem="U6x-eT-AVa" secondAttribute="leading" id="z2X-2P-IdF"/>
                                                 </constraints>
                                             </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MNU-yn-7qb">
+                                                <rect key="frame" x="0.0" y="1954" width="414" height="500"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="                              " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aiD-RA-2Kn">
+                                                        <rect key="frame" x="57" y="56" width="300" height="2"/>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="300" id="2fe-RN-idl"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="aZX-ZR-9e7">
+                                                        <rect key="frame" x="20" y="119.00000000000001" width="374" height="199.33333333333337"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="aZX-ZR-9e7" secondAttribute="height" multiplier="15:8" id="XSk-0Z-6J3"/>
+                                                        </constraints>
+                                                    </mapView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="aZX-ZR-9e7" secondAttribute="trailing" constant="20" id="3qz-dW-OJk"/>
+                                                    <constraint firstItem="aZX-ZR-9e7" firstAttribute="top" secondItem="aiD-RA-2Kn" secondAttribute="bottom" constant="61" id="GL8-93-JRK"/>
+                                                    <constraint firstAttribute="height" constant="500" id="Lg5-qy-ngW"/>
+                                                    <constraint firstAttribute="trailing" secondItem="aiD-RA-2Kn" secondAttribute="trailing" constant="57" id="Lqy-3Q-bb5"/>
+                                                    <constraint firstItem="aZX-ZR-9e7" firstAttribute="centerX" secondItem="MNU-yn-7qb" secondAttribute="centerX" id="PNO-I5-1Hu"/>
+                                                    <constraint firstItem="aZX-ZR-9e7" firstAttribute="leading" secondItem="MNU-yn-7qb" secondAttribute="leading" constant="20" id="ZoM-1u-Dyy"/>
+                                                    <constraint firstItem="aiD-RA-2Kn" firstAttribute="leading" secondItem="MNU-yn-7qb" secondAttribute="leading" constant="57" id="gbB-B1-QML"/>
+                                                    <constraint firstItem="aiD-RA-2Kn" firstAttribute="top" secondItem="MNU-yn-7qb" secondAttribute="top" constant="56" id="mGx-Ox-kOw"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -250,13 +282,16 @@
                                             <constraint firstItem="a4a-u8-fjr" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="JaY-Yq-6uI"/>
                                             <constraint firstAttribute="height" constant="3000" id="KOo-VJ-9zV"/>
                                             <constraint firstItem="U6x-eT-AVa" firstAttribute="top" secondItem="a69-Bl-AZo" secondAttribute="bottom" id="Myb-ZF-MWu"/>
+                                            <constraint firstItem="MNU-yn-7qb" firstAttribute="top" secondItem="U6x-eT-AVa" secondAttribute="bottom" id="Nbv-zL-tLc"/>
                                             <constraint firstItem="a4a-u8-fjr" firstAttribute="top" secondItem="5TZ-ce-vGo" secondAttribute="bottom" constant="7.3300000000000001" id="PTx-HJ-wIQ"/>
                                             <constraint firstItem="HJl-7r-mvg" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="XjL-f8-Z20"/>
+                                            <constraint firstItem="MNU-yn-7qb" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="aDS-eC-uWX"/>
                                             <constraint firstItem="HJl-7r-mvg" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="baA-qC-06O"/>
                                             <constraint firstAttribute="trailing" secondItem="a4a-u8-fjr" secondAttribute="trailing" id="cUw-dC-tIL"/>
                                             <constraint firstItem="s5m-bo-7oG" firstAttribute="top" secondItem="a4a-u8-fjr" secondAttribute="bottom" id="e5u-WU-Y7x"/>
                                             <constraint firstItem="U6x-eT-AVa" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="gzT-15-7OE"/>
                                             <constraint firstItem="a69-Bl-AZo" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="jEC-Lp-hBj"/>
+                                            <constraint firstItem="MNU-yn-7qb" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="jjL-xb-gA9"/>
                                             <constraint firstItem="a4a-u8-fjr" firstAttribute="leading" secondItem="PNr-Jk-x10" secondAttribute="leading" id="ukV-gl-dm0"/>
                                             <constraint firstItem="U6x-eT-AVa" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="v0n-sX-5Z0"/>
                                             <constraint firstItem="s5m-bo-7oG" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="xsH-nY-cZ4"/>
@@ -282,6 +317,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <size key="freeformSize" width="414" height="3000"/>
+                    <connections>
+                        <outlet property="mapWithSttAddress" destination="aZX-ZR-9e7" id="c3K-4E-Kea"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
