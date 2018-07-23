@@ -14,6 +14,7 @@
 		790F77FF2101F0750040C959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790F77FD2101F0750040C959 /* LaunchScreen.storyboard */; };
 		790F780A2101F0750040C959 /* settrade_cmuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F78092101F0750040C959 /* settrade_cmuTests.swift */; };
 		790F78152101F0750040C959 /* settrade_cmuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F78142101F0750040C959 /* settrade_cmuUITests.swift */; };
+		790F7823210626A30040C959 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F7822210626A30040C959 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		790F78102101F0750040C959 /* settrade-cmuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "settrade-cmuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		790F78142101F0750040C959 /* settrade_cmuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settrade_cmuUITests.swift; sourceTree = "<group>"; };
 		790F78162101F0750040C959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		790F7822210626A30040C959 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				790F77F42101F0740040C959 /* AppDelegate.swift */,
 				790F77F62101F0740040C959 /* ViewController.swift */,
+				790F7822210626A30040C959 /* WebViewController.swift */,
 				790F77F82101F0740040C959 /* Main.storyboard */,
 				790F77FB2101F0750040C959 /* Assets.xcassets */,
 				790F77FD2101F0750040C959 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				790F77F72101F0740040C959 /* ViewController.swift in Sources */,
+				790F7823210626A30040C959 /* WebViewController.swift in Sources */,
 				790F77F52101F0740040C959 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

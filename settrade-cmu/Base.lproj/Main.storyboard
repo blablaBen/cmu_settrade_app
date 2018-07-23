@@ -388,16 +388,16 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://www.settrade.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6H-za-3MJ">
-                                                <rect key="frame" x="107.66666666666669" y="2744" width="199" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.31372549019607843" green="0.70588235294117652" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6r-IU-Obf">
+                                                <rect key="frame" x="118" y="2739" width="178" height="30"/>
+                                                <state key="normal" title="https://www.settrade.com"/>
+                                                <connections>
+                                                    <segue destination="WXr-6V-9Pg" kind="show" id="C9D-uX-eyY"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="d6H-za-3MJ" firstAttribute="top" secondItem="aaV-n4-sfC" secondAttribute="bottom" constant="158" id="0H7-8X-QsY"/>
                                             <constraint firstItem="HJl-7r-mvg" firstAttribute="top" secondItem="PNr-Jk-x10" secondAttribute="top" id="3gx-zW-xM3"/>
                                             <constraint firstItem="a69-Bl-AZo" firstAttribute="top" secondItem="s5m-bo-7oG" secondAttribute="bottom" id="4TW-Ll-RW4"/>
                                             <constraint firstItem="a69-Bl-AZo" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="5hx-1s-PQn"/>
@@ -406,8 +406,10 @@
                                             <constraint firstItem="5TZ-ce-vGo" firstAttribute="top" secondItem="HJl-7r-mvg" secondAttribute="bottom" id="EXd-Qk-BrF"/>
                                             <constraint firstItem="5TZ-ce-vGo" firstAttribute="leading" secondItem="PNr-Jk-x10" secondAttribute="leading" id="FYS-PA-bIX"/>
                                             <constraint firstItem="yMF-LR-Plo" firstAttribute="top" secondItem="MNU-yn-7qb" secondAttribute="bottom" id="HFw-p6-Q41"/>
+                                            <constraint firstItem="v6r-IU-Obf" firstAttribute="top" secondItem="NXV-ri-cfV" secondAttribute="bottom" constant="21" id="J0A-vQ-g26"/>
                                             <constraint firstItem="a4a-u8-fjr" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="JaY-Yq-6uI"/>
                                             <constraint firstAttribute="height" constant="3500" id="KOo-VJ-9zV"/>
+                                            <constraint firstItem="v6r-IU-Obf" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="KVi-qr-KeP"/>
                                             <constraint firstItem="yMF-LR-Plo" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="Moe-Bh-yYH"/>
                                             <constraint firstItem="U6x-eT-AVa" firstAttribute="top" secondItem="a69-Bl-AZo" secondAttribute="bottom" id="Myb-ZF-MWu"/>
                                             <constraint firstItem="MNU-yn-7qb" firstAttribute="top" secondItem="U6x-eT-AVa" secondAttribute="bottom" id="Nbv-zL-tLc"/>
@@ -420,7 +422,6 @@
                                             <constraint firstItem="HJl-7r-mvg" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="baA-qC-06O"/>
                                             <constraint firstAttribute="trailing" secondItem="a4a-u8-fjr" secondAttribute="trailing" id="cUw-dC-tIL"/>
                                             <constraint firstItem="s5m-bo-7oG" firstAttribute="top" secondItem="a4a-u8-fjr" secondAttribute="bottom" id="e5u-WU-Y7x"/>
-                                            <constraint firstItem="d6H-za-3MJ" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="fMV-hp-Ky1"/>
                                             <constraint firstItem="U6x-eT-AVa" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="gzT-15-7OE"/>
                                             <constraint firstItem="a69-Bl-AZo" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="jEC-Lp-hBj"/>
                                             <constraint firstItem="MNU-yn-7qb" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="jjL-xb-gA9"/>
@@ -456,6 +457,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="130.43478260869566" y="127.98913043478262"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="NRD-ue-Chc">
+            <objects>
+                <viewController id="WXr-6V-9Pg" customClass="WebViewController" customModule="settrade_cmu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k19-iL-nbx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cp5-O2-YdF">
+                                <rect key="frame" x="0.0" y="10" width="414" height="716"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cp5-O2-YdF" firstAttribute="centerX" secondItem="k19-iL-nbx" secondAttribute="centerX" id="5ka-cJ-ait"/>
+                            <constraint firstItem="cp5-O2-YdF" firstAttribute="centerY" secondItem="k19-iL-nbx" secondAttribute="centerY" id="CKX-nm-T8B"/>
+                            <constraint firstItem="cp5-O2-YdF" firstAttribute="height" secondItem="sPr-6g-3w3" secondAttribute="height" id="qor-KO-OXt"/>
+                            <constraint firstItem="cp5-O2-YdF" firstAttribute="width" secondItem="sPr-6g-3w3" secondAttribute="width" id="uyM-uL-eyA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sPr-6g-3w3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wHZ-It-IW1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1649" y="434"/>
         </scene>
     </scenes>
     <resources>
