@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="settrade_cmu" customModuleProvider="target" sceneMemberID="viewController">
@@ -449,6 +449,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="e7t-mT-LMT"/>
                     <size key="freeformSize" width="414" height="3500"/>
                     <connections>
                         <outlet property="mapWithSttAddress" destination="aZX-ZR-9e7" id="c3K-4E-Kea"/>
@@ -467,27 +468,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cp5-O2-YdF">
-                                <rect key="frame" x="0.0" y="10" width="414" height="716"/>
+                                <rect key="frame" x="0.0" y="10" width="414" height="664"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZR-n7-8Fd">
+                                <rect key="frame" x="188" y="686" width="39" height="30"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="x6g-j0-LbB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="cp5-O2-YdF" firstAttribute="centerX" secondItem="k19-iL-nbx" secondAttribute="centerX" id="5ka-cJ-ait"/>
-                            <constraint firstItem="cp5-O2-YdF" firstAttribute="centerY" secondItem="k19-iL-nbx" secondAttribute="centerY" id="CKX-nm-T8B"/>
-                            <constraint firstItem="cp5-O2-YdF" firstAttribute="height" secondItem="sPr-6g-3w3" secondAttribute="height" id="qor-KO-OXt"/>
+                            <constraint firstItem="cp5-O2-YdF" firstAttribute="centerY" secondItem="k19-iL-nbx" secondAttribute="centerY" constant="-26" id="CKX-nm-T8B"/>
+                            <constraint firstItem="VZR-n7-8Fd" firstAttribute="centerX" secondItem="k19-iL-nbx" secondAttribute="centerX" id="L0X-6R-57c"/>
+                            <constraint firstItem="sPr-6g-3w3" firstAttribute="bottom" secondItem="VZR-n7-8Fd" secondAttribute="bottom" constant="20" id="hch-HM-EXi"/>
+                            <constraint firstItem="cp5-O2-YdF" firstAttribute="height" secondItem="sPr-6g-3w3" secondAttribute="height" constant="-52" id="qor-KO-OXt"/>
                             <constraint firstItem="cp5-O2-YdF" firstAttribute="width" secondItem="sPr-6g-3w3" secondAttribute="width" id="uyM-uL-eyA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sPr-6g-3w3"/>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="cp5-O2-YdF" id="yd3-XC-7Od"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wHZ-It-IW1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1649" y="434"/>
+            <point key="canvasLocation" x="1647.826086956522" y="433.69565217391306"/>
         </scene>
     </scenes>
     <resources>
