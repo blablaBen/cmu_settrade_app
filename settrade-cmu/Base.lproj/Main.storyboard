@@ -11,19 +11,19 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Title-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="settrade_cmu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="3500"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="45w-Ay-Mwa">
-                                <rect key="frame" x="0.0" y="20" width="414" height="3480"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="2780"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PNr-Jk-x10">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2800"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HJl-7r-mvg">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
@@ -408,7 +408,7 @@
                                             <constraint firstItem="yMF-LR-Plo" firstAttribute="top" secondItem="MNU-yn-7qb" secondAttribute="bottom" id="HFw-p6-Q41"/>
                                             <constraint firstItem="v6r-IU-Obf" firstAttribute="top" secondItem="NXV-ri-cfV" secondAttribute="bottom" constant="21" id="J0A-vQ-g26"/>
                                             <constraint firstItem="a4a-u8-fjr" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="JaY-Yq-6uI"/>
-                                            <constraint firstAttribute="height" constant="3500" id="KOo-VJ-9zV"/>
+                                            <constraint firstAttribute="height" priority="250" constant="2800" id="KOo-VJ-9zV"/>
                                             <constraint firstItem="v6r-IU-Obf" firstAttribute="centerX" secondItem="PNr-Jk-x10" secondAttribute="centerX" id="KVi-qr-KeP"/>
                                             <constraint firstItem="yMF-LR-Plo" firstAttribute="width" secondItem="PNr-Jk-x10" secondAttribute="width" id="Moe-Bh-yYH"/>
                                             <constraint firstItem="U6x-eT-AVa" firstAttribute="top" secondItem="a69-Bl-AZo" secondAttribute="bottom" id="Myb-ZF-MWu"/>
@@ -449,10 +449,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="e7t-mT-LMT"/>
-                    <size key="freeformSize" width="414" height="3500"/>
+                    <size key="freeformSize" width="414" height="2800"/>
                     <connections>
+                        <outlet property="mainView" destination="PNr-Jk-x10" id="Z3H-dh-d63"/>
                         <outlet property="mapWithSttAddress" destination="aZX-ZR-9e7" id="c3K-4E-Kea"/>
+                        <outlet property="scrollView" destination="45w-Ay-Mwa" id="AO2-le-6S0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

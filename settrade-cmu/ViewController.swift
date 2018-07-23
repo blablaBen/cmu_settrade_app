@@ -14,11 +14,44 @@ class ViewController: UIViewController {
     let STT_LOCATION_LONGTITUDE = 100.56770770000003;
     
     @IBOutlet weak var mapWithSttAddress: MKMapView!
+    @IBOutlet weak var mainView: UIView!
+    @IBOutlet weak var scrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         initializeSttLocationOnMap()
         disableMapGetsure()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated);
+        NotificationCenter.default.addObserver(self, selector: #selector(deviceRotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil);
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
+    }
+    
+    @objc func deviceRotated(){
+        if UIDeviceOrientationIsLandscape(UIDevice.current.orientation) {
+            calculateScrollViewHeight();
+        }
+        if UIDeviceOrientationIsPortrait(UIDevice.current.orientation) {
+            calculateScrollViewHeight();
+        }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        calculateScrollViewHeight();
+    }
+    
+    func calculateScrollViewHeight() {
+        var contentRect = CGRect.zero
+        
+        for view in self.mainView.subviews {
+            contentRect = contentRect.union(view.frame)
+        }
+        self.scrollView.contentSize = contentRect.size
     }
     
     func initializeSttLocationOnMap() {
