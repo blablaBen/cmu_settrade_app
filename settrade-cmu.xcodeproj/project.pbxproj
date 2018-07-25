@@ -15,6 +15,7 @@
 		790F780A2101F0750040C959 /* settrade_cmuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F78092101F0750040C959 /* settrade_cmuTests.swift */; };
 		790F78152101F0750040C959 /* settrade_cmuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F78142101F0750040C959 /* settrade_cmuUITests.swift */; };
 		790F7823210626A30040C959 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790F7822210626A30040C959 /* WebViewController.swift */; };
+		790F78252108CA160040C959 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 790F78242108CA150040C959 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		790F78142101F0750040C959 /* settrade_cmuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settrade_cmuUITests.swift; sourceTree = "<group>"; };
 		790F78162101F0750040C959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		790F7822210626A30040C959 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		790F78242108CA150040C959 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		790F77E82101F0740040C959 = {
 			isa = PBXGroup;
 			children = (
+				790F78242108CA150040C959 /* README.md */,
 				790F77F32101F0740040C959 /* settrade-cmu */,
 				790F78082101F0750040C959 /* settrade-cmuTests */,
 				790F78132101F0750040C959 /* settrade-cmuUITests */,
@@ -234,6 +237,7 @@
 			files = (
 				790F77FF2101F0750040C959 /* LaunchScreen.storyboard in Resources */,
 				790F77FC2101F0750040C959 /* Assets.xcassets in Resources */,
+				790F78252108CA160040C959 /* README.md in Resources */,
 				790F77FA2101F0740040C959 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
