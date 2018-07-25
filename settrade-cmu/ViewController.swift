@@ -33,11 +33,13 @@ class ViewController: UIViewController {
     }
     
     @objc func deviceRotated(){
-        if UIDeviceOrientationIsLandscape(UIDevice.current.orientation) {
-            calculateScrollViewHeight();
-        }
-        if UIDeviceOrientationIsPortrait(UIDevice.current.orientation) {
-            calculateScrollViewHeight();
+       DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            if UIDeviceOrientationIsLandscape(UIDevice.current.orientation) {
+                self.calculateScrollViewHeight();
+            }
+            if UIDeviceOrientationIsPortrait(UIDevice.current.orientation) {
+                self.calculateScrollViewHeight();
+            }
         }
     }
     
